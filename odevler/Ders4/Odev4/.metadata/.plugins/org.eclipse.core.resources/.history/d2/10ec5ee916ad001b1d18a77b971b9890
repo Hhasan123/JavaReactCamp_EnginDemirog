@@ -1,0 +1,9 @@
+package Managers;
+
+import Games.Games;
+
+public abstract class GamesManager {
+	void sırala(Games[] games) {
+		
+	}
+}

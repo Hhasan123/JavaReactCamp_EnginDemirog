@@ -1,0 +1,13 @@
+package Games;
+
+public class WarGames {
+	private int warGamesId;
+
+	public int getWarGamesId() {
+		return warGamesId;
+	}
+
+	public void setWarGamesId(int warGamesId) {
+		this.warGamesId = warGamesId;
+	}
+}

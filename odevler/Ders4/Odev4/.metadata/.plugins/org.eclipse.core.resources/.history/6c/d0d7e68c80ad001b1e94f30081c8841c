@@ -1,0 +1,15 @@
+import Gamers.Gamers;
+import Games.Games;
+import Managers.GamesStoreManager;
+
+public class GameStore {
+	
+	public void sortingMyGames (Gamers gamer) {
+		System.out.println("----------Hoþgeldiniz"+gamer.getFirstName()+" "+gamer.getLastName()+" "+" oyunlarýnýz aþaðýdadýr----------");
+		
+	}
+	public void usersGameStore (Games[] games) {
+		GamesStoreManager gamesStoreManager =new GamesStoreManager();
+		gamesStoreManager.siralaVeEkranaYerlestir(games);
+	}
+}

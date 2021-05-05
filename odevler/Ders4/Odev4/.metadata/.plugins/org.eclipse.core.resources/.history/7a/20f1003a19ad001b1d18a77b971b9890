@@ -1,0 +1,5 @@
+import Games.Games;
+
+public class GameStore extends Games{
+	
+}

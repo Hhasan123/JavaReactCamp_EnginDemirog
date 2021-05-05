@@ -1,0 +1,54 @@
+import Gamers.Gamers;
+import Games.Games;
+import Games.RacingGames;
+import Games.StrategyGames;
+import Games.TableGames;
+import Games.WarGames;
+import Managers.GamerManager;
+import Managers.GamesStoreManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		GamerManager gamerManager=new GamerManager() {};
+		Gamers gamer=new Gamers();
+		gamer.setFirstName("Hasan");
+		gamer.setLastName("Yýldýz");
+		gamerManager.Delete(gamer);
+		
+		
+		GamesStoreManager gamesStoreManager=new GamesStoreManager();
+		RacingGames game1= new RacingGames();
+		game1.setGameName("Asphalt 8");
+		game1.setPrice(120);
+		game1.setDiscountRatio(18);
+		
+		StrategyGames game2= new StrategyGames();
+		game2.setGameName("Simcity Buildit");
+		game2.setPrice(60);
+		game2.setDiscountRatio(12);
+		
+		WarGames game3=new WarGames();
+		game3.setGameName("Çöp Adam Savaþlarý: Gemiþin Mirasý");
+		game3.setPrice(140);
+		game3.setDiscountRatio(15);
+		
+		Games[] games= {game1,game2,game3};
+		
+		
+		
+		
+		Games myGame1=new Games();
+		myGame1.setGameName("Special Forces Group");
+		Games myGame2 =new Games();
+		myGame2.setGameName("Hotel Story");
+		Games[] myGames = {myGame1,myGame2};
+		
+		GamersGamer gamersGamer=new GamersGamer();
+		gamersGamer.myGames(myGames, gamer);
+		gamesStoreManager.siralaVeEkranaYerlestir(games);
+	}
+
+}

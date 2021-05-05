@@ -1,0 +1,14 @@
+import Gamers.Gamers;
+import Games.Games;
+
+public class GamersGamer {
+
+	public void myGames(Games[] game,Gamers gamer) {
+		gamer.setGames(game);
+		System.out.println("----------Hoþgeldiniz "+gamer.getFirstName()+" "+gamer.getLastName()+"----------");
+		System.out.println("Oyunlarýnýz aþaðýdadýr.");
+		for (Games games : game) {
+			System.out.println(games.getGameName());
+		}
+	}
+}

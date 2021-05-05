@@ -1,0 +1,13 @@
+package Games;
+
+public class TableGames {
+	private int tableGamesId;
+
+	public int getTableGamesId() {
+		return tableGamesId;
+	}
+
+	public void setTableGamesId(int tableGamesId) {
+		this.tableGamesId = tableGamesId;
+	}
+}

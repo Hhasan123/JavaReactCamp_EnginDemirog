@@ -1,0 +1,14 @@
+package Managers;
+
+import Games.Games;
+
+public class GamesStoreManager  extends GamesManager{
+		public void siralaVeEkranaYerlestir(Games[] games) {
+		System.out.println("----------Hoþgeldiniz size uygun oyunlarýmýz aþaðýdadýr----------");
+
+		for (Games game : games) {
+			System.out.println(game.getGameName()+" : "+game.getPrice()+" deðil sýnýrlý bir süre için yalnýzca ==>"
+					+ game.getPriceAfterDiscount() + "%"+game.getDiscountRatio()+" kadar indirimle");
+		}
+	}
+}

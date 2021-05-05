@@ -1,0 +1,6 @@
+package Campaigns;
+
+public class Campaigns {
+	private int campaignId;
+	private String campaignText;
+}

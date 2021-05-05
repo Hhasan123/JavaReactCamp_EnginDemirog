@@ -1,0 +1,10 @@
+package Managers;
+
+import Games.Games;
+
+public class GamesManager {
+	
+	void gameAdd(Games games) {
+		System.out.println("Oyun Eklendi : "+games.getGameName());
+	}
+}

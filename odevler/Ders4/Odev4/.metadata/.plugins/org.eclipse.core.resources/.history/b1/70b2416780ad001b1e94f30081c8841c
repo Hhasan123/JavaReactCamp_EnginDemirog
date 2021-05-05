@@ -1,0 +1,7 @@
+import Games.Games;
+import Managers.GamesStoreManager;
+
+public class GameStore extends Games{
+	GamesStoreManager gamesStoreManager=new GamesStoreManager();
+	
+}

@@ -1,0 +1,36 @@
+import Gamers.Gamers;
+import Games.Games;
+import Games.StrategyGames;
+import Managers.GamerManager;
+import Managers.GamesStoreManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		GamerManager gamerManager=new GamerManager() {};
+		Gamers gamer=new Gamers();
+		gamer.setFirstName("Hasan");
+		gamer.setLastName("Yýldýz");
+		gamerManager.Delete(gamer);
+		
+		
+		GamesStoreManager gamesStoreManager=new GamesStoreManager();
+		Games game1= new Games();
+		game1.setGameName("Asphalt 8");
+		game1.setPrice(120);
+		game1.setDiscountRatio(20);
+		
+		Games game2= new Games();
+		game2.setGameName("Simcity Buildit");
+		game2.setPrice(60);
+		game2.setDiscountRatio(12);
+		
+		Games[] games= {game1,game2};
+		
+		
+		
+		gamesStoreManager.siralaVeEkranaYerlestir(games);
+	}
+
+}

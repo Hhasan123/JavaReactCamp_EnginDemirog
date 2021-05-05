@@ -1,0 +1,15 @@
+import Gamers.Gamers;
+
+public class GamerManager{
+	void Add(Gamers gamer) {
+		System.out.println("Oyuncu eklendi : "+gamer.getFirstName()+" "+gamer.getLastName());
+	}
+	void update(Gamers gamer) {
+		System.out.println("Oyuncu güncellendi : "+gamer.getFirstName()+" "+gamer.getLastName());
+
+	}
+	void delete(Gamers gamer) {
+		System.out.println("Oyuncu silindi : "+gamer.getFirstName()+" "+gamer.getLastName());
+
+	}
+}

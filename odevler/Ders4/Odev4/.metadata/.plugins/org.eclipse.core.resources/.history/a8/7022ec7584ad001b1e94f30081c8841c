@@ -1,0 +1,12 @@
+import Gamers.Gamers;
+import Games.Games;
+
+public class GamersGamer {
+
+	public void myGames(Games[] game,Gamers gamer) {
+		gamer.setGames(game);
+		for (Games games : game) {
+			System.out.println(games.getGameName());
+		}
+	}
+}

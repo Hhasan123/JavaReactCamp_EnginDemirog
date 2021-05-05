@@ -1,0 +1,8 @@
+package Games;
+
+public class WarGames implements Games{
+	private int gameId;
+	private String gameName;
+	private int price;
+	private int discountRatio;
+}

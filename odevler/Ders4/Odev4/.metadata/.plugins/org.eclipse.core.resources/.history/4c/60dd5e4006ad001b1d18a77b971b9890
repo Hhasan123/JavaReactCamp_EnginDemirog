@@ -1,0 +1,33 @@
+package Games;
+
+public class Games {
+	private int gameId;
+	private String gameName;
+	private int price;
+	private int discountRatio;
+	
+	public int getGameId() {
+		return gameId;
+	}
+	public void setGameId(int gameId) {
+		this.gameId = gameId;
+	}
+	public String getGameName() {
+		return gameName;
+	}
+	public void setGameName(String gameName) {
+		this.gameName = gameName;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public int getDiscountRatio() {
+		return discountRatio;
+	}
+	public void setDiscountRatio(int discountRatio) {
+		this.discountRatio = discountRatio;
+	}
+}

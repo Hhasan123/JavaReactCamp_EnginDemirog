@@ -1,0 +1,19 @@
+import Gamers.Gamers;
+import Games.StrategyGames;
+import Managers.GamerManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		GamerManager gamerManager=new GamerManager() {
+			
+		};
+		Gamers gamer=new Gamers();
+		gamer.setFirstName("Hasan");
+		gamer.setLastName("Yýldýz");
+		gamerManager.Delete(gamer);
+		
+	}
+
+}

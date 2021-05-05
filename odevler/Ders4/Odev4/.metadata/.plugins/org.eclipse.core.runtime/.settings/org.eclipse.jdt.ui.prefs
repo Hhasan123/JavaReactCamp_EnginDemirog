@@ -1,0 +1,8 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Gamers.Gamers"><rhs name\="Gamers.Gamers"/></lhs><lhs name\="GamerManager"><rhs name\="GamerManager"/></lhs><lhs name\="Managers.GamesManager"><rhs name\="Managers.GamesStoreManager"/><rhs name\="Managers.GamesManager"/></lhs><lhs name\="Managers.GamesStoreManager"><rhs name\="Managers.GamesStoreManager"/></lhs><lhs name\="Games.Games"><rhs name\="Games.StrategyGames"/><rhs name\="Games.WarGames"/><rhs name\="Games.TableGames"/><rhs name\="Games.Games"/></lhs><lhs name\="Games.StrategyGames"><rhs name\="Games.StrategyGames"/></lhs><lhs name\="Games.WarGames"><rhs name\="Games.WarGames"/></lhs><lhs name\="Games.TableGames"><rhs name\="Games.TableGames"/></lhs><lhs name\="Campaigns.Campaigns"><rhs name\="Campaigns.Campaigns"/><rhs name\="Games.Games"/></lhs><lhs name\="GamersGamer"><rhs name\="GamersGamer"/></lhs><lhs name\="Managers.GamersCheckUp"><rhs name\="Managers.GamersCheckUp"/></lhs></history>
+content_assist_number_of_computers=20
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

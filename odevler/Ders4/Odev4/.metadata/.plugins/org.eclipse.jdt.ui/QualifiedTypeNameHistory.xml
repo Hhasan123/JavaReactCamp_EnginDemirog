@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="GamerManager"/>
+    <fullyQualifiedTypeName name="GamersManager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Managers.GamerManager"/>
+    <fullyQualifiedTypeName name="Games.RacingGames"/>
+    <fullyQualifiedTypeName name="Games.StrategyGames"/>
+    <fullyQualifiedTypeName name="Games.WarGames"/>
+    <fullyQualifiedTypeName name="Games.TableGames"/>
+    <fullyQualifiedTypeName name="Campaigns.Campaigns"/>
+    <fullyQualifiedTypeName name="Managers.GamesStoreManager"/>
+    <fullyQualifiedTypeName name="GameStore"/>
+    <fullyQualifiedTypeName name="GamersGamer"/>
+    <fullyQualifiedTypeName name="Managers.GamesManager"/>
+    <fullyQualifiedTypeName name="Games.Games"/>
+    <fullyQualifiedTypeName name="Gamers.Gamers"/>
+    <fullyQualifiedTypeName name="Managers.GamersCheckUp"/>
+</qualifiedTypeNameHistroy>

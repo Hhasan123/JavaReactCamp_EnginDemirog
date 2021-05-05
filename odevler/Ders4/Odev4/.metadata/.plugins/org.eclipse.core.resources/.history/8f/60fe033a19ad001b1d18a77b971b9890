@@ -1,0 +1,12 @@
+package Managers;
+
+import Games.Games;
+
+public abstract class GamesManager {
+	void sýrala(Games[] games) {
+		
+	}
+	void gameAdd(Games games) {
+		System.out.println("Oyun Eklendi : "+games.getGameName());
+	}
+}
