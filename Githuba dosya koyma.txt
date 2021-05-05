@@ -1,0 +1,5 @@
+klasör içinde seçenekler yaptıktan sonra -Git Bush Here- yazan yere tıladıktan sonra açılan konsolda aşağıdakileri sıra ile yazdıktan sonra oluyor
+
+git add .
+git commit -m 'Mesajınız'
+git push origin
